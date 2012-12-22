@@ -1,4 +1,4 @@
-AppMountable::Application.routes.draw do
+AppMountable::Engine.routes.draw do
   resources :posts
 
 

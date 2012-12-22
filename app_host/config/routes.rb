@@ -1,5 +1,6 @@
 AppHost::Application.routes.draw do
   resources :posts
+  mount AppMountable::Engine => "/haha"
 
 
   # The priority is based upon order of creation:

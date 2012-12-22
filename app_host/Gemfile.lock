@@ -4,6 +4,12 @@ PATH
     app_full (0.0.1)
       rails (~> 3.2.9)
 
+PATH
+  remote: ../app_mountable
+  specs:
+    app_mountable (0.0.1)
+      rails (~> 3.2.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -111,6 +117,7 @@ PLATFORMS
 
 DEPENDENCIES
   app_full!
+  app_mountable!
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.9)
